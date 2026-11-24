@@ -1,0 +1,1 @@
+Society logo: logo.png
