@@ -142,7 +142,6 @@ about:{title:"About",html:`
 founding:{title:"Founding president",html:`
 <div class="cards"><div class="card cc"><div class="ph">${'<img src="images/founding-president/chandrasekhar.jpg" alt="" onerror="this.parentNode.classList.add(\'x\');this.remove()">'}</div>
 <h3>Professor S. Chandrasekhar, FRS</h3><p class="r">Founding President of ILCS</p>
-<a class="btn o" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Sivaramakrishna_Chandrasekhar">Read on Wikipedia</a></div></div>
 <p>Prof. S. Chandrasekhar – A Pioneer of Liquid Crystal Research
 Professor Sivaramakrishna Chandrasekhar (6 August 1930 – 8 March 2004) was a distinguished Indian physicist and a pioneer in the field of liquid crystal research. A Fellow of the Royal Society (FRS) and recipient of the Royal Medal (1994) and Padma Bhushan (1998), he played a pivotal role in establishing India as an internationally recognized centre for liquid crystal research.
 
