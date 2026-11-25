@@ -44,7 +44,7 @@ const EVENTS=[
 /* 5. WEBSITE TEAM (shown on the front page and footer). Photos go in images/team/ */
 const TEAM=[
  {n:"Ankit Gupta",r:"PhD Research Scholar, Physics",i:"Ashoka University",img:"images/team/ankit.jpeg",li:"https://www.linkedin.com/in/ankit-gupta-871b93220",rg:"https://www.researchgate.net/profile/YOUR-PROFILE"},
- {n:"Pragnesh",r:"PhD Research Scholar, Chemistry",i:"Shri Govind Guru University",img:"images/team/pragnesh.jpg",li:"www.linkedin.com/in/pragnesh-vankar-883251b8",rg:""}
+ {n:"Pragnesh",r:"PhD Research Scholar, Chemistry",i:"Shri Govind Guru University",img:"images/team/pragnesh.jpg",li:"http://www.linkedin.com/in/pragnesh-vankar-883251b8",rg:""}
 ];
 
 /* 6. COUNCIL. Photos go in images/council/ */
