@@ -5,7 +5,7 @@ const SITE={
  short:"ILCS",
  name:"Indian Liquid Crystal Society",
  tag:"A non-profit society of liquid crystal researchers, established in 1992",
- logo:"",   /* e.g. "images/logo/logo.png" */
+ logo:"images/logo/logo.png",   /* e.g. "images/logo/logo.png" */
  slides:["images/home/slide1.png","images/home/slide2.png","images/home/slide3.png","images/home/slide4.bmp","images/home/slide5.png"],
  stats:[["1992","Established"],["500+","Members"],["32","National conferences"],["1993","First conference, Mysore"]],
  intro:[
