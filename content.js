@@ -143,7 +143,14 @@ founding:{title:"Founding president",html:`
 <div class="cards"><div class="card cc"><div class="ph">${'<img src="images/founding-president/chandrasekhar.jpg" alt="" onerror="this.parentNode.classList.add(\'x\');this.remove()">'}</div>
 <h3>Professor S. Chandrasekhar, FRS</h3><p class="r">Founding President of ILCS</p>
 <a class="btn o" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Sivaramakrishna_Chandrasekhar">Read on Wikipedia</a></div></div>
-<p>Write a short biography here.</p>`},
+<p>Prof. S. Chandrasekhar – A Pioneer of Liquid Crystal Research
+Professor Sivaramakrishna Chandrasekhar (6 August 1930 – 8 March 2004) was a distinguished Indian physicist and a pioneer in the field of liquid crystal research. A Fellow of the Royal Society (FRS) and recipient of the Royal Medal (1994) and Padma Bhushan (1998), he played a pivotal role in establishing India as an internationally recognized centre for liquid crystal research.
+
+He earned his MSc in Physics from Nagpur University in 1951 and pursued doctoral research under the guidance of Sir C. V. Raman at the Raman Research Institute, Bangalore, obtaining his DSc in 1954. He subsequently earned a PhD from Cambridge University. After working in the UK, he returned to India in 1961 as the first Head of the Department of Physics at the University of Mysore, where he began his pioneering research on liquid crystals.
+
+His landmark contributions included studies of cholesteric and nematic liquid crystals and the discovery of columnar liquid crystal phases formed by disc-shaped molecules in 1977. His research significantly advanced the understanding of liquid crystal materials and their potential technological applications, particularly in display and electronic devices. In 1971, he established a liquid crystal research laboratory at the Raman Research Institute, which became a leading centre in the field.
+
+After retiring from RRI in 1990, he founded the Centre for Liquid Crystal Research in Bangalore. He also served as the founding president of the International Liquid Crystal Society (1990–1992) and edited Molecular Crystals and Liquid Crystals for two decades. His numerous honours include the S. S. Bhatnagar Award, UNESCO Niels Bohr International Gold Medal, Padma Bhushan and Royal Medal. His scientific legacy continues to inspire research in liquid crystals and soft matter physics..</p>`},
 
 international:{title:"International status",html:`
 <p>The Indian Liquid Crystal Society (ILCS) is affiliated to the International Liquid Crystal Society.</p>
