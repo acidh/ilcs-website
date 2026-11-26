@@ -51,7 +51,7 @@ const TEAM=[
 const COUNCIL=[
  {n:"Prof. Sandeep Kumar",r:"President",img:"images/council/sandeepK.jpg",e:"skumar.sandeep@gmail.com", links:[["Biography","https://wwws.rri.res.in/htmls/library/imprints_collection/bios/sandeepkumar.html"],["Google Scholaar","https://scholar.google.com/citations?user=AI_wSdAAAAAJ&hl=en"]]},
  {n:"Prof. C.V. Yelamaggad",r:"Vice President",img:"images/council/yelamaggad.jpg",e:"yelamaggad@cens.res.in"},
- {n:"Prof. S. K. Pal",r:"Secretary",img:"images/council/Shantanu-K.-Pal.jpg",e:"skpal@iisermohali.ac.in"},
+ {n:"Prof. S. K. Pal",r:"Secretary",img:"images/council/Shantanu-K.-Pal.jpg",e:"skpal@iisermohali.ac.in",links:[["Biography","https://web.iisermohali.ac.in/faculty/skpal/index.php/profile.html"],["Google Scholaar","https://scholar.google.com/citations?user=9t9OSrgAAAAJ&hl=en&oi=ao"]]},
  {n:"Dr. P. Viswanath",r:"Invited Council Member & Treasurer",img:"images/council/viswanath.jpg",e:"viswanath@cens.res.in"},
  {n:"Prof. Ravindra Dhar",r:"Member & Past President",img:"images/council/ravindra-dhar.jpg"},
  {n:"Prof. K. K. Raina",r:"Member",img:"images/council/k-k-raina.jpg"},
