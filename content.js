@@ -7,13 +7,13 @@ const SITE={
  tag:"A non-profit society of liquid crystal researchers, established in 1992",
  logo:"images/logo/logo.png",   /* e.g. "images/logo/logo.png" */
  slides:["images/home/slide1.png","images/home/slide2.png","images/home/slide3.png","images/home/slide4.bmp","images/home/slide5.png"],
- stats:[["1992","Established"],["500+","Members"],["32","National conferences"],["1993","First conference, Mysore"]],
+ stats:[["1992","Established"],["500+","Members"],["33","National conferences"],["1993","First conference, Mysore"]],
  intro:[
-  "The Indian Liquid Crystal Society (ILCS) is a non-profit organization established in 1992 under the Society’s Registration Act-1960 by a fraternity of liquid crystal researchers spread across the country. ILCS provides a forum for researchers from academic institutions and industries to exchange information and ideas related to liquid crystal research and technology.",
-  "The eminent liquid crystal scientist, Prof S. Chandrasekhar, FRS, was the founding president of ILCS."
+  "The Indian Liquid Crystal Society (ILCS) is a non-profit organization established in 1992 under the Societies Registration Act, 1960 by a fraternity of liquid crystal researchers spread across the country. ILCS provides a forum for researchers from academic institutions and industries to exchange information and ideas related to liquid crystal research and technology.",
+  "The eminent liquid crystal scientist, Prof. S. Chandrasekhar, FRS, was the founding president of ILCS."
  ],
  membership:"The Society has over 500 members: Ordinary, Life, Student and Institutional. Individuals and institutions are welcome to apply.",
- form:"",   /* paste your Google Form link for membership applications */
+ form:"",   /* TODO: paste your Google Form link for membership applications */
  footer:"© 2026 Indian Liquid Crystal Society (ILCS)",
  links:[{t:"International Liquid Crystal Society",l:"https://www.ilcsoc.org/"},{t:"Contact",l:"page.html?p=contact"}]
 };
@@ -43,16 +43,16 @@ const EVENTS=[
 
 /* 5. WEBSITE TEAM (shown on the front page and footer). Photos go in images/team/ */
 const TEAM=[
- {n:"Ankit Gupta",r:"PhD Research Scholar, Physics",i:"Ashoka University",img:"images/team/ankit.jpeg",li:"https://www.linkedin.com/in/ankit-gupta-871b93220",rg:"https://www.researchgate.net/profile/YOUR-PROFILE"},
+ {n:"Ankit Gupta",r:"PhD Research Scholar, Physics",i:"Ashoka University",img:"images/team/ankit.jpeg",li:"https://www.linkedin.com/in/ankit-gupta-871b93220",rg:""}, /* TODO: add ResearchGate URL */
  {n:"Pragnesh Vankar",r:"PhD Research Scholar, Chemistry",i:"Shri Govind Guru University",img:"images/team/pragnesh.jpg",li:"http://www.linkedin.com/in/pragnesh-vankar-883251b8",rg:""}
 ];
 
 /* 6. COUNCIL. Photos go in images/council/ */
 const COUNCIL=[
- {n:"Prof. Sandeep Kumar",r:"President",img:"images/council/sandeepK.jpg",e:"skumar.sandeep@gmail.com", links:[["Biography","https://wwws.rri.res.in/htmls/library/imprints_collection/bios/sandeepkumar.html"],["Google Scholaar","https://scholar.google.com/citations?user=AI_wSdAAAAAJ&hl=en"]]},
- {n:"Prof. C.V. Yelamaggad",r:"Vice President",img:"images/council/yelamaggad.jpg",e:"yelamaggad@cens.res.in", links:[["Biography","https://www.cens.res.in/en/faculty/yelamaggad.html"],["Google Scholaar","https://scholar.google.com/citations?hl=en&user=5VXbDioAAAAJ"]]},
- {n:"Prof. S. K. Pal",r:"Secretary",img:"images/council/Shantanu-K.-Pal.jpg",e:"skpal@iisermohali.ac.in", links:[["Biography","https://web.iisermohali.ac.in/faculty/skpal/index.php/profile.html"],["Google Scholaar","https://scholar.google.com/citations?user=9t9OSrgAAAAJ&hl=en&oi=ao"]]},
- {n:"Dr. P. Viswanath",r:"Invited Council Member & Treasurer",img:"images/council/viswanath.jpg",e:"viswanath@cens.res.in", links:[["Biography","https://www.cens.res.in/en/faculty/viswanath.html"],["Google Scholaar","]]},
+ {n:"Prof. Sandeep Kumar",r:"President",img:"images/council/sandeepK.jpg",e:"skumar.sandeep@gmail.com", links:[["Biography","https://wwws.rri.res.in/htmls/library/imprints_collection/bios/sandeepkumar.html"],["Google Scholar","https://scholar.google.com/citations?user=AI_wSdAAAAAJ&hl=en"]]},
+ {n:"Prof. C.V. Yelamaggad",r:"Vice President",img:"images/council/yelamaggad.jpg",e:"yelamaggad@cens.res.in", links:[["Biography","https://www.cens.res.in/en/faculty/yelamaggad.html"],["Google Scholar","https://scholar.google.com/citations?hl=en&user=5VXbDioAAAAJ"]]},
+ {n:"Prof. S. K. Pal",r:"Secretary",img:"images/council/Shantanu-K.-Pal.jpg",e:"skpal@iisermohali.ac.in", links:[["Biography","https://web.iisermohali.ac.in/faculty/skpal/index.php/profile.html"],["Google Scholar","https://scholar.google.com/citations?user=9t9OSrgAAAAJ&hl=en&oi=ao"]]},
+ {n:"Dr. P. Viswanath",r:"Invited Council Member & Treasurer",img:"images/council/viswanath.jpg",e:"viswanath@cens.res.in", links:[["Biography","https://www.cens.res.in/en/faculty/viswanath.html"],["Google Scholar",""]]}, /* TODO: add Google Scholar URL */
  {n:"Prof. Ravindra Dhar",r:"Member & Past President",img:"images/council/ravindra-dhar.jpg"},
  {n:"Prof. K. K. Raina",r:"Member",img:"images/council/k-k-raina.jpg"},
  {n:"Prof. K. A. Suresh",r:"Member",img:"images/council/k-a-suresh.jpg"},
@@ -70,7 +70,7 @@ const GALLERY={
   ["nclc-2004.jpg","National Conference on Liquid Crystal – 2004"],
   ["nclc-2005.jpg","National Conference on Liquid Crystal – 2005"],
   ["nclc-2018-25th.jpg","25th National Conference on Liquid Crystal – 2018"],
-  ["photo-6.jpg","Conference photograph (add caption)"]]},
+  ["photo-6.jpg","Conference photograph"]]}, /* TODO: update caption */
  posters:{dir:"images/gallery/posters-won/",items:[]},
  contest:{dir:"images/gallery/image-contest/",items:[]}
 };
@@ -118,7 +118,7 @@ const NCLC=[
 ["29th","Department of Chemistry and Centre for Advanced Research and Development, CHRIST University, Bengaluru","","8–10 December 2022",""],
 ["30th","Department of Physics, Andhra University, Visakhapatnam","","2–4 November 2023",""],
 ["31st","Navyug Science College, Surat","","20–22 December 2024",""],
-["32nd","Dept. of Physics, Birla Institute of Science and Technology (BITS), Pilani","","20–22 November 2025",""]
+["32nd","Dept. of Physics, Birla Institute of Technology and Science (BITS), Pilani","","20–22 November 2025",""]
 ];
 
 /* 10. PAGES: id:{title, html} or {title, type, key}. Write normal HTML between the backticks. */
@@ -137,13 +137,13 @@ about:{title:"About",html:`
 <li>Institute and award fellowships, scholarships, stipends, travel grants or otherwise support students and research scholars to encourage them to devote themselves to pursuits in Chemical Science.</li>
 </ul>
 <h2>Conferences</h2>
-<p>The annual conferences organized by ILCS are generally hosted by different universities and academic institutions across the country. The first ILCS Conference was held on 18 October 1993 at the University of Mysore, Mysore, with Prof. S. Chandrasekhar at the helm. It saw many prominent liquid crystal scientists from within the country and abroad sharing their expertise with young researchers and students. The Society has since held 32 national conferences all over India. <a href="page.html?p=nclc">See the full list</a>.</p>`},
+<p>The annual conferences organized by ILCS are generally hosted by different universities and academic institutions across the country. The first ILCS Conference was held on 18 October 1993 at the University of Mysore, Mysore, with Prof. S. Chandrasekhar at the helm. It saw many prominent liquid crystal scientists from within the country and abroad sharing their expertise with young researchers and students. The Society has since held 33 national conferences all over India. <a href="page.html?p=nclc">See the full list</a>.</p>`},
 
 founding:{title:"Founding president",html:`
-<div class="cards"><div class="card cc"><div class="ph">${'<img src="images/founding-president/chandrasekhar.jpg" alt="" onerror="this.parentNode.classList.add(\'x\');this.remove()">'}</div>
+<div class="cards"><div class="card cc"><div class="ph"><img src="images/founding-president/chandrasekhar.jpg" alt="Professor S. Chandrasekhar, FRS" onerror="this.parentNode.classList.add('x');this.remove()"></div>
 <h3>Professor S. Chandrasekhar, FRS</h3><p class="r">Founding President of ILCS</p>
 <a class="btn o" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Sivaramakrishna_Chandrasekhar">Read on Wikipedia</a></div></div>
-<p>Write a short biography here.</p>`},
+<p><!-- TODO: Write a short biography here. --></p>`},
 
 international:{title:"International status",html:`
 <p>The Indian Liquid Crystal Society (ILCS) is affiliated to the International Liquid Crystal Society.</p>
@@ -155,14 +155,14 @@ awards:{title:"Awards",type:"awards"},
 
 nominations:{title:"Call for nominations",html:`
 <p>The Indian Liquid Crystal Society invites nominations for the ILCS Awards & Recognitions. Nominations are to be submitted to the Secretary (<a href="mailto:skpal@iisermohali.ac.in">skpal@iisermohali.ac.in</a>) with a copy to the President of ILCS (<a href="mailto:skumar.sandeep@gmail.com">skumar.sandeep@gmail.com</a>).</p>
-<p><b>Deadline shown on the old site: 31 August 2026. Please update this date.</b></p>
+<p><b>Nomination deadline: To be announced.</b></p>
 <a class="btn" style="margin-left:0" href="files/ILCS_Nomination_Proforma_with_Guidelines.pdf">Download nomination proforma with guidelines (PDF)</a>`},
 
 membership:{title:"Membership",html:`
 <p>The Society has over 500 members across Ordinary, Life, Student and Institutional categories. Individuals and institutions may apply for membership using the online form.</p>
 <div class="tb"><table><tr><th>Category</th><th>Fee</th></tr>
 <tr><td>Ordinary member</td><td>Rs. 100 per annum</td></tr><tr><td>Student member</td><td>Rs. 500 per annum</td></tr>
-<tr><td>Life member</td><td>Rs. 3000</td></tr><tr><td>Institutional member</td><td>Rs. 2,000</td></tr></table></div>
+<tr><td>Life member</td><td>Rs. 3,000</td></tr><tr><td>Institutional member</td><td>Rs. 2,000</td></tr></table></div>
 <h2>Bank details for online payment</h2>
 <p>Beneficiary: Indian Liquid Crystal Society<br>Bank: State Bank of India, Vyalikaval Branch, Bangalore<br>Account No.: 54033823651<br>IFSC: SBIN0040163</p>
 <p>The form asks for: title, name, gender, address with ID proof, email, phone, qualification, institution, area of interest (Physics, Chemistry, Biology, Polymers, Applications, other), membership category, payment receipt and a passport photo.</p>
